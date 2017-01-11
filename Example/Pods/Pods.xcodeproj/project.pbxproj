@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077BF5676A07FA44A7074F4CE1CD7719 /* Pods-KandyHSK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0533E99A7BEC3A5A08D04EBA84CCCAB7 /* Pods-KandyHSK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50B83C8BEC41B168F8204304BDB67DB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		657F7B4399F3C3BCB6DE7144A57634E8 /* KandyHSK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 937DF693125B9B5156E0B30D37E3CDF5 /* KandyHSK-dummy.m */; };
+		B29822E90981EC34C344EDC00EC39DEF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC06B69BFB6BD9F7CDC21245176DAE4 /* ReplaceMe.m */; };
+		B6974671932A3193C8F3879139DB1F10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CD47333C68F0FBA4535CD730AF2E544A /* Pods-KandyHSK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CB3273371C341259F2B273F5D14C98 /* Pods-KandyHSK_Tests-dummy.m */; };
+		D6269699584F1B0229305ADDE25465D4 /* KandyHSK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A075D91614719F4913C22DD0DA51CEA /* KandyHSK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1702BF8913C4CB2A2D9E25CA6D5E7C9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5EBA9FF1602DB5FBCC13007FAA470AE;
+			remoteInfo = KandyHSK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01842728EBD23FEBE6A46AF903099145 /* Pods-KandyHSK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KandyHSK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0533E99A7BEC3A5A08D04EBA84CCCAB7 /* Pods-KandyHSK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KandyHSK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		05CB3273371C341259F2B273F5D14C98 /* Pods-KandyHSK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KandyHSK_Tests-dummy.m"; sourceTree = "<group>"; };
+		2F49A7F65E413D68048AEA57752A70A0 /* Pods-KandyHSK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KandyHSK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		352BEF9B2B16D5EFE451FFF5E782BC9D /* KandyHSK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KandyHSK.framework; path = KandyHSK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A075D91614719F4913C22DD0DA51CEA /* KandyHSK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KandyHSK-umbrella.h"; sourceTree = "<group>"; };
+		4B0D5DD7ABE5FF7CC1B46A931EE25BA7 /* Pods-KandyHSK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KandyHSK_Tests-resources.sh"; sourceTree = "<group>"; };
+		53DE7F71DAADE32C63D491E9E5883D7B /* Pods-KandyHSK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KandyHSK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		69744A38E3CB983486ABA606BD3DFA05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BC06B69BFB6BD9F7CDC21245176DAE4 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		7048D70F6074E2AB30C0F23A595EA4CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB61D640AFA21CE9666DE92A130B451 /* Pods_KandyHSK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KandyHSK_Tests.framework; path = "Pods-KandyHSK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1A3ECE646352DD7AE6C4E8496329C8 /* Pods-KandyHSK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KandyHSK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		937DF693125B9B5156E0B30D37E3CDF5 /* KandyHSK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KandyHSK-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B183FDD09E0FEEBDFE709D0AD6D32FC4 /* Pods-KandyHSK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KandyHSK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B5CB7CAB0453DCDA044C835A858032F6 /* KandyHSK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KandyHSK.xcconfig; sourceTree = "<group>"; };
+		BC68B2799C7EF0BB02D329FCFF61A4F2 /* Pods-KandyHSK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KandyHSK_Tests.modulemap"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DBFA53DA1532EBE091146616C3B3F758 /* KandyHSK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KandyHSK-prefix.pch"; sourceTree = "<group>"; };
+		DE7FFDAFC1AFFEAEEB7AEFB32486E110 /* KandyHSK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KandyHSK.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		082F4780A6D96B1C78567447B1083DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B83C8BEC41B168F8204304BDB67DB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D43B72E03D5D9AC5E62E6138AB4C994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6974671932A3193C8F3879139DB1F10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195273CE91715C6B002937E10EE9EBD5 /* Pods-KandyHSK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				69744A38E3CB983486ABA606BD3DFA05 /* Info.plist */,
+				BC68B2799C7EF0BB02D329FCFF61A4F2 /* Pods-KandyHSK_Tests.modulemap */,
+				53DE7F71DAADE32C63D491E9E5883D7B /* Pods-KandyHSK_Tests-acknowledgements.markdown */,
+				01842728EBD23FEBE6A46AF903099145 /* Pods-KandyHSK_Tests-acknowledgements.plist */,
+				05CB3273371C341259F2B273F5D14C98 /* Pods-KandyHSK_Tests-dummy.m */,
+				B183FDD09E0FEEBDFE709D0AD6D32FC4 /* Pods-KandyHSK_Tests-frameworks.sh */,
+				4B0D5DD7ABE5FF7CC1B46A931EE25BA7 /* Pods-KandyHSK_Tests-resources.sh */,
+				0533E99A7BEC3A5A08D04EBA84CCCAB7 /* Pods-KandyHSK_Tests-umbrella.h */,
+				8A1A3ECE646352DD7AE6C4E8496329C8 /* Pods-KandyHSK_Tests.debug.xcconfig */,
+				2F49A7F65E413D68048AEA57752A70A0 /* Pods-KandyHSK_Tests.release.xcconfig */,
+			);
+			name = "Pods-KandyHSK_Tests";
+			path = "Target Support Files/Pods-KandyHSK_Tests";
+			sourceTree = "<group>";
+		};
+		583EA38A1815B47B85E5E73F98A9487B /* KandyHSK */ = {
+			isa = PBXGroup;
+			children = (
+				FFEBA66AB5CB21A3BF9BB85B3CAAD162 /* Classes */,
+			);
+			name = KandyHSK;
+			path = KandyHSK;
+			sourceTree = "<group>";
+		};
+		6DDFFDCB3350413085311220268023E3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA59BDCC72BA825255331F1797AA6FD8 /* KandyHSK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6DDFFDCB3350413085311220268023E3 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E646332775208685B153C30914BC47F7 /* Products */,
+				84E031C549BD22FB509DDF219FDF731D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84E031C549BD22FB509DDF219FDF731D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				195273CE91715C6B002937E10EE9EBD5 /* Pods-KandyHSK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA59BDCC72BA825255331F1797AA6FD8 /* KandyHSK */ = {
+			isa = PBXGroup;
+			children = (
+				583EA38A1815B47B85E5E73F98A9487B /* KandyHSK */,
+				C20758FA57192DA2E2377E48D83C2A2C /* Support Files */,
+			);
+			name = KandyHSK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C20758FA57192DA2E2377E48D83C2A2C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7048D70F6074E2AB30C0F23A595EA4CF /* Info.plist */,
+				DE7FFDAFC1AFFEAEEB7AEFB32486E110 /* KandyHSK.modulemap */,
+				B5CB7CAB0453DCDA044C835A858032F6 /* KandyHSK.xcconfig */,
+				937DF693125B9B5156E0B30D37E3CDF5 /* KandyHSK-dummy.m */,
+				DBFA53DA1532EBE091146616C3B3F758 /* KandyHSK-prefix.pch */,
+				3A075D91614719F4913C22DD0DA51CEA /* KandyHSK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KandyHSK";
+			sourceTree = "<group>";
+		};
+		E646332775208685B153C30914BC47F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				352BEF9B2B16D5EFE451FFF5E782BC9D /* KandyHSK.framework */,
+				7CB61D640AFA21CE9666DE92A130B451 /* Pods_KandyHSK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFEBA66AB5CB21A3BF9BB85B3CAAD162 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6BC06B69BFB6BD9F7CDC21245176DAE4 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4E0F47B47BAAFA0EAC007CF95E5B020F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6269699584F1B0229305ADDE25465D4 /* KandyHSK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA35A31AA1CECA39DA4AE6F0F1BA932C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077BF5676A07FA44A7074F4CE1CD7719 /* Pods-KandyHSK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A5EBA9FF1602DB5FBCC13007FAA470AE /* KandyHSK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D22C9242155549A0070A431BBF4A5AF /* Build configuration list for PBXNativeTarget "KandyHSK" */;
+			buildPhases = (
+				0F2D8CBAB0406D997AA418090748E9C8 /* Sources */,
+				082F4780A6D96B1C78567447B1083DA2 /* Frameworks */,
+				4E0F47B47BAAFA0EAC007CF95E5B020F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KandyHSK;
+			productName = KandyHSK;
+			productReference = 352BEF9B2B16D5EFE451FFF5E782BC9D /* KandyHSK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D839523F949408C36B8978367F246FED /* Pods-KandyHSK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47A0ED02EAF34F09F03C40AADC2FE213 /* Build configuration list for PBXNativeTarget "Pods-KandyHSK_Tests" */;
+			buildPhases = (
+				99AA6FC174052A2CD53C88FF665224C5 /* Sources */,
+				4D43B72E03D5D9AC5E62E6138AB4C994 /* Frameworks */,
+				AA35A31AA1CECA39DA4AE6F0F1BA932C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E32CE0E2DDFF9E3DD04DEB53FCB1424 /* PBXTargetDependency */,
+			);
+			name = "Pods-KandyHSK_Tests";
+			productName = "Pods-KandyHSK_Tests";
+			productReference = 7CB61D640AFA21CE9666DE92A130B451 /* Pods_KandyHSK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E646332775208685B153C30914BC47F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5EBA9FF1602DB5FBCC13007FAA470AE /* KandyHSK */,
+				D839523F949408C36B8978367F246FED /* Pods-KandyHSK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F2D8CBAB0406D997AA418090748E9C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657F7B4399F3C3BCB6DE7144A57634E8 /* KandyHSK-dummy.m in Sources */,
+				B29822E90981EC34C344EDC00EC39DEF /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99AA6FC174052A2CD53C88FF665224C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD47333C68F0FBA4535CD730AF2E544A /* Pods-KandyHSK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E32CE0E2DDFF9E3DD04DEB53FCB1424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KandyHSK;
+			target = A5EBA9FF1602DB5FBCC13007FAA470AE /* KandyHSK */;
+			targetProxy = 1702BF8913C4CB2A2D9E25CA6D5E7C9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C308F9F99E225C12AF6999DF947383B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5CB7CAB0453DCDA044C835A858032F6 /* KandyHSK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KandyHSK/KandyHSK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KandyHSK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KandyHSK/KandyHSK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KandyHSK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5637527EC7174762DAD2B64D9EEFF77C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F49A7F65E413D68048AEA57752A70A0 /* Pods-KandyHSK_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KandyHSK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KandyHSK_Tests/Pods-KandyHSK_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KandyHSK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56D845AA531B880D45FE3373E2D668B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5CB7CAB0453DCDA044C835A858032F6 /* KandyHSK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KandyHSK/KandyHSK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KandyHSK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KandyHSK/KandyHSK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KandyHSK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CF8ACD17086DFC2F9112340372AAF4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A1A3ECE646352DD7AE6C4E8496329C8 /* Pods-KandyHSK_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KandyHSK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KandyHSK_Tests/Pods-KandyHSK_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KandyHSK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47A0ED02EAF34F09F03C40AADC2FE213 /* Build configuration list for PBXNativeTarget "Pods-KandyHSK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8ACD17086DFC2F9112340372AAF4D8 /* Debug */,
+				5637527EC7174762DAD2B64D9EEFF77C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D22C9242155549A0070A431BBF4A5AF /* Build configuration list for PBXNativeTarget "KandyHSK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D845AA531B880D45FE3373E2D668B8 /* Debug */,
+				4C308F9F99E225C12AF6999DF947383B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

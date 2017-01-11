@@ -1,0 +1,22 @@
+{
+  "name": "KandyHSK",
+  "version": "0.1.0",
+  "summary": "A short description of KandyHSK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/KandyHSK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Aaron Jones": "aaronj3.14@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/KandyHSK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KandyHSK/Classes/**/*"
+}

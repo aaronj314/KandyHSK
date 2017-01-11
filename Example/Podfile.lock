@@ -1,0 +1,16 @@
+PODS:
+  - KandyHSK (0.1.0)
+
+DEPENDENCIES:
+  - KandyHSK (from `../`)
+
+EXTERNAL SOURCES:
+  KandyHSK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KandyHSK: 310b28363fcacd046cf46354596b5eef67b9068b
+
+PODFILE CHECKSUM: a9cbcdd788085657bd5e1f7c1cb90f3bcf20ebd0
+
+COCOAPODS: 1.1.1
