@@ -1,0 +1,6 @@
+use_frameworks!
+target 'KandyHSK_Tests' do
+  pod 'KandyHSK', :path => '../'
+  
+  
+end
